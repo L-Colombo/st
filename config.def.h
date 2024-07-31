@@ -125,7 +125,7 @@ static const char *colorname[] = {
 	[9]  = "#fb4934", /* red     */
 	[10] = "#b8bb26", /* green   */
 	[11] = "#fabd2f", /* yellow  */
-	[12] = "#1a75ff", /* blue    */
+	[12] = "#3271a5", /* blue    */
 	[13] = "#d3869b", /* magenta */
 	[14] = "#8ec07c", /* cyan    */
 	[15] = "#ebdbb2", /* white   */
@@ -167,7 +167,7 @@ static Rune stcursor = 0x2603; /* snowman ("☃") */
  */
 
 static unsigned int cols = 80;
-static unsigned int rows = 24;
+static unsigned int rows = 34;
 
 /*
  * Default colour and shape of the mouse cursor
