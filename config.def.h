@@ -112,22 +112,22 @@ float alpha = 0.9;
 static const char *colorname[] = {
     /* 8 normal colors */
 	[0] = "#121212", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	[1] = "#cc241d", /* red     */
-	[2] = "#98971a", /* green   */
-	[3] = "#d79921", /* yellow  */
-	[4] = "#0066ff", /* blue    */
+	[1] = "#ff05ff", /* red     */
+	[2] = "#00875f", /* green   */
+	[3] = "#ffd787", /* yellow  */
+	[4] = "#0087ff", /* blue    */
 	[5] = "#b16286", /* magenta */
-	[6] = "#689d6a", /* cyan    */
+	[6] = "#005f5f", /* cyan    */
 	[7] = "#a89984", /* white   */
 
     /* 8 bright colors */
 	[8]  = "#928374", /* black   */
 	[9]  = "#fb4934", /* red     */
-	[10] = "#b8bb26", /* green   */
+	[10] = "#00875f", /* green   */
 	[11] = "#fabd2f", /* yellow  */
-	[12] = "#3271a5", /* blue    */
+	[12] = "#0087ff", /* blue    */
 	[13] = "#d3869b", /* magenta */
-	[14] = "#8ec07c", /* cyan    */
+	[14] = "#005f5f", /* cyan    */
 	[15] = "#ebdbb2", /* white   */
 
     /* more colors can be added after 255 to use with DefaultXX */
@@ -143,7 +143,7 @@ static const char *colorname[] = {
  */
 unsigned int defaultfg = 15;
 unsigned int defaultbg = 0;
-unsigned int defaultcs = 3;
+unsigned int defaultcs = 4;
 static unsigned int defaultrcs = 0;
 
 /*
