@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Iosevka Nerd Font Propo:size=16";
+static char *font = "ZedMono Nerd Font Propo:size=16";
 static int borderpx = 8;
 
 /*
@@ -114,7 +114,7 @@ static const char *colorname[] = {
 	[0] = "#121212", /* hard contrast: #1d2021 / soft contrast: #32302f */
 	[1] = "#fb4934", /* red     */
 	[2] = "#00875f", /* green   */
-	[3] = "#ffd787", /* yellow  */
+	[3] = "#eace09", /* yellow  */
 	[4] = "#0087ff", /* blue    */
 	[5] = "#ff05ff", /* magenta */
 	[6] = "#005f5f", /* cyan    */
@@ -124,7 +124,7 @@ static const char *colorname[] = {
 	[8]  = "#928374", /* black   */
 	[9]  = "#fb4934", /* red     */
 	[10] = "#00875f", /* green   */
-	[11] = "#fabd2f", /* yellow  */
+	[11] = "#eace09", /* yellow  */
 	[12] = "#0087ff", /* blue    */
 	[13] = "#d3869b", /* magenta */
 	[14] = "#005f5f", /* cyan    */
@@ -143,7 +143,7 @@ static const char *colorname[] = {
  */
 unsigned int defaultfg = 15;
 unsigned int defaultbg = 0;
-unsigned int defaultcs = 4;
+unsigned int defaultcs = 5;
 static unsigned int defaultrcs = 0;
 
 /*
