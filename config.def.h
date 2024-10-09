@@ -121,14 +121,14 @@ static const char *colorname[] = {
 	[7] = "#eeeeee", /* white   */
 
     /* 8 bright colors */
-	[8]  = "#928374", /* black   */
+	[8]  = "#121212", /* hard contrast: #1d2021 / soft contrast: #32302f */
 	[9]  = "#fb4934", /* red     */
 	[10] = "#00875f", /* green   */
 	[11] = "#eace09", /* yellow  */
 	[12] = "#0087ff", /* blue    */
-	[13] = "#d3869b", /* magenta */
+	[13] = "#ff05ff", /* magenta */
 	[14] = "#005f5f", /* cyan    */
-	[15] = "#ffffff", /* white   */
+	[15] = "#eeeeee", /* white   */
 
     /* more colors can be added after 255 to use with DefaultXX */
     "#cccccc",
