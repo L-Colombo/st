@@ -112,22 +112,22 @@ float alpha = 0.9;
 static const char *colorname[] = {
     /* 8 normal colors */
 	[0] = "#121212", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	[1] = "#fb4934", /* red     */
-	[2] = "#00875f", /* green   */
-	[3] = "#eace09", /* yellow  */
-	[4] = "#0087ff", /* blue    */
-	[5] = "#ff05ff", /* magenta */
-	[6] = "#005f5f", /* cyan    */
-	[7] = "#eeeeee", /* white   */
+	[1] = "#ff0000", /* red      */
+	[2] = "#1a43bf", /* dark blue*/
+	[3] = "#ffcc00", /* yellow   */
+	[4] = "#0087ff", /* cyan     */
+	[5] = "#ff05ff", /* pink     */
+	[6] = "#33ff00", /* green    */
+	[7] = "#eeeeee", /* white    */
 
     /* 8 bright colors */
-	[8]  = "#121212", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	[9]  = "#fb4934", /* red     */
-	[10] = "#00875f", /* green   */
-	[11] = "#eace09", /* yellow  */
-	[12] = "#0087ff", /* blue    */
-	[13] = "#ff05ff", /* magenta */
-	[14] = "#005f5f", /* cyan    */
+	[8] = "#888888", /* hard contrast: #1d2021 / soft contrast: #32302f */
+	[9] = "#ff0000", /* red     */
+	[10] = "#1a43bf", /* orange  */
+	[11] = "#ffcc00", /* yellow  */
+	[12] = "#0087ff", /* cyan     */
+	[13] = "#ff05ff", /* pink    */
+	[14] = "#33ff00", /* green   */
 	[15] = "#eeeeee", /* white   */
 
     /* more colors can be added after 255 to use with DefaultXX */
@@ -141,7 +141,7 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-unsigned int defaultfg = 15;
+unsigned int defaultfg = 14;
 unsigned int defaultbg = 0;
 unsigned int defaultcs = 5;
 static unsigned int defaultrcs = 0;
