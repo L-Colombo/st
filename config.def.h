@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "ZedMono Nerd Font Propo:size=15";
+static char *font = "UbuntuMono Nerd Font Propo:size=15";
 static int borderpx = 8;
 
 /*
@@ -110,39 +110,34 @@ float alpha = 0.9;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-    /* 8 normal colors */
-	[0] = "#121212", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	[1] = "#ff0000", /* red      */
-	[2] = "#1a43bf", /* dark blue*/
-	[3] = "#ffcc00", /* yellow   */
-	[4] = "#0087ff", /* cyan     */
-	[5] = "#ff05ff", /* pink     */
-	[6] = "#33ff00", /* green    */
-	[7] = "#eeeeee", /* white    */
-
-    /* 8 bright colors */
-	[8] = "#888888", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	[9] = "#ff0000", /* red     */
-	[10] = "#1a43bf", /* orange  */
-	[11] = "#ffcc00", /* yellow  */
-	[12] = "#0087ff", /* cyan     */
-	[13] = "#ff05ff", /* pink    */
-	[14] = "#33ff00", /* green   */
-	[15] = "#eeeeee", /* white   */
-
-    /* more colors can be added after 255 to use with DefaultXX */
-    "#cccccc",
-    "#555555",
-    "gray90", /* default foreground colour */
-    "black",  /* default background colour */
+    "#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
+	"#cc241d",
+	"#98971a",
+	"#d79921",
+	"#458588",
+	"#b16286",
+	"#689d6a",
+	"#a89984",
+	"#928374",
+	"#fb4934",
+	"#b8bb26",
+	"#fabd2f",
+	"#83a598",
+	"#d3869b",
+	"#8ec07c",
+	"#ebdbb2",
+	[255] = 0,
+	/* more colors can be added after 255 to use with DefaultXX */
+	"#000000", /* 256 -> bg */
+	"#dddddd", /* 257 -> fg */
 };
 
 /*
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-unsigned int defaultfg = 14;
-unsigned int defaultbg = 0;
+unsigned int defaultfg = 257;
+unsigned int defaultbg = 256;
 unsigned int defaultcs = 5;
 static unsigned int defaultrcs = 0;
 
