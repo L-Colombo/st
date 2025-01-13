@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "IntoneMono Nerd Font Propo:size=14";
+static char *font = "Iosevka Nerd Font Propo:bold:size=15";
 static int borderpx = 8;
 
 /*
