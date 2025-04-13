@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Iosevka Nerd Font Propo:size=18";
+static char *font = "Iosevka Nerd Font Propo:size=16";
 static int borderpx = 8;
 
 /*
@@ -117,15 +117,15 @@ static const char *colorname[] = {
     /* more colors can be added after 255 to use with DefaultXX */
     "#000000", /* 256 -> bg */
     "#dddddd", /* 257 -> fg */
-    // "#10100e", /* hard contrast: #1d2021 / soft contrast: #32302f */
-    // "#c40233", "#009f6b", "#ffd700", "#0087bd", "#9a4eae", "#20b2aa",
-    // "#c6c6c4",
-    // "#696969", "#ff2400", "#03c03c", "#fdff00", "#007fff", "#ff1493",
-    // "#00cccc",
-    // "#fffafa", [255] = 0,
-    // /* more colors can be added after 255 to use with DefaultXX */
-    // "#10100e", /* 256 -> bg */
-    // "#c6c6c4", /* 257 -> fg */
+               // "#10100e", /* hard contrast: #1d2021 / soft contrast: #32302f */
+               // "#c40233", "#009f6b", "#ffd700", "#0087bd", "#9a4eae", "#20b2aa",
+               // "#c6c6c4",
+               // "#696969", "#ff2400", "#03c03c", "#fdff00", "#007fff", "#ff1493",
+               // "#00cccc",
+               // "#fffafa", [255] = 0,
+               // /* more colors can be added after 255 to use with DefaultXX */
+               // "#10100e", /* 256 -> bg */
+               // "#c6c6c4", /* 257 -> fg */
 };
 
 /*
