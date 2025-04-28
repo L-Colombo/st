@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Pragmasevka Nerd Font:size=16";
+static char *font = "UbuntuMono Nerd Font Propo:size=16";
 static int borderpx = 8;
 
 /*
