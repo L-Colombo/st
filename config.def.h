@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Mononoki Nerd Font Propo:size=18";
+static char *font = "MartianMono Nerd Font Propo:size=15";
 static int borderpx = 8;
 
 /*
