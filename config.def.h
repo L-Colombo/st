@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrains Mono NL:size=16";
+static char *font = "Iosevka Nerd Font Propo:size=16";
 static int borderpx = 8;
 
 /*
